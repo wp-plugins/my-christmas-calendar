@@ -53,16 +53,15 @@ Its very easy. Sign up at [julekalender.com](http://www.julekalender.com?a=wp/ "
 
 1. Upload Christmas Advent Calendar to the `/wp-content/plugins/` directory or simply download it from Wordpress.
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to Settings and edit My Christmas Calenar
+1. Go to Settings and edit My Christmas Calendar Settings
 1. Type in your julekalender.com subdomain
-1. Past this [my_calendar] shortcode into any page/post (see FAQ for more options)
+1. Paste the [my_calendar] shortcode into any page/post (see FAQ for more options)
 1. If your corporate go premium!
 
-== FAQ ==
+== Frequently Asked Questions ==
 = Exampels & options =
-
-Basic: [my_calendar]
-Custom [my_calenar height="800" width="90" border="10" bordercolor="ff0000"] - no need for notation like px, % and #.
+*Basic: [my_calendar]
+*Custom [my_calenar height="800" width="90" border="10" bordercolor="ff0000"] - no need for notation like px, % and #.
 
 == Changelog ==
 
