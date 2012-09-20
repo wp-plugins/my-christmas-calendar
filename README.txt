@@ -8,16 +8,15 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The plugin grabs your christmas calendar from julekalender.com and adds it to your page / post of choice. We do not recommend displaying it in a widget area unless the width of this is equal to an iPhone screen.
+The plugin grabs your christmas calendar from julekalender.com and adds it to your page / post of choice.
 
 == Description ==
 
-Add your christmas advent calendar (from julekalender.com) to Wordpress or actually any calendar as long as its public.
+Add your christmas advent calendar (from julekalender.com) to Wordpress or actually any calendar as long as its public. We do not recommend displaying it in a widget area unless the width of this is equal to an iPhone screen.
 
-Use the [my_calenar] shortcode to display calendar in any page/post. 
+Use the [my_calenar] shortcode to display calendar in any page/post.
 
 **Available options/attributes are**
-
 * height (in pixels, default 600)
 * width (in percentage relative to parent, default 100)
 * border (default none)
