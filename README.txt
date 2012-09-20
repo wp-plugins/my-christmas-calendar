@@ -17,6 +17,7 @@ Add your christmas advent calendar (from julekalender.com) to Wordpress or actua
 Use the [my_calenar] shortcode to display calendar in any page/post.
 
 **Available options/attributes are**
+
 * height (in pixels, default 600)
 * width (in percentage relative to parent, default 100)
 * border (default none)
@@ -60,8 +61,9 @@ Its very easy. Sign up at [julekalender.com](http://www.julekalender.com?a=wp/ "
 
 == Frequently Asked Questions ==
 = Exampels & options =
-*Basic: [my_calendar]
-*Custom [my_calenar height="800" width="90" border="10" bordercolor="ff0000"] - no need for notation like px, % and #.
+
+* Basic: [my_calendar]
+* Custom [my_calenar height="800" width="90" border="10" bordercolor="ff0000"] - no need for notation like px, % and #.
 
 == Changelog ==
 
