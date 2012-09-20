@@ -14,7 +14,7 @@ The plugin grabs your christmas calendar from julekalender.com and adds it to yo
 
 Add your christmas advent calendar (from julekalender.com) to Wordpress or actually any calendar as long as its public. We do not recommend displaying it in a widget area unless the width of this is equal to an iPhone screen.
 
-Use the [my_calenar] shortcode to display calendar in any page/post.
+Use the [my_calendar] shortcode to display calendar in any page/post.
 
 **Available options/attributes are**
 
@@ -63,7 +63,7 @@ Its very easy. Sign up at [julekalender.com](http://www.julekalender.com?a=wp/ "
 = Exampels & options =
 
 * Basic: [my_calendar]
-* Custom [my_calenar height="800" width="90" border="10" bordercolor="ff0000"] - no need for notation like px, % and #.
+* Custom [my_calendar height="800" width="90" border="10" bordercolor="ff0000"] - no need for notation like px, % and #.
 
 == Changelog ==
 
