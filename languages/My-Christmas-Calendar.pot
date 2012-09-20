@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: My-Christmas-Calendar/my-christmas-calendar_plugin.php:78
+msgid "My Christmas Calendar settings"
+msgstr ""
+
+#. Text in echo
+#: My-Christmas-Calendar/my-christmas-calendar_plugin.php:59
+msgid "Not got an account? <a target=\"_blank\" href=\"http://www.julekalender.com\">Register here</a>"
+msgstr ""
+
+#. Text in echo
+#: My-Christmas-Calendar/my-christmas-calendar_plugin.php:71
+msgid "Save"
+msgstr ""
+
+#. Text in function
+#: My-Christmas-Calendar/my-christmas-calendar_plugin.php:78
+msgid "Subdomain: "
+msgstr ""

@@ -1,0 +1,12 @@
+
+.wrap { position:relative;width:99%;height:auto;min-height: 900px;background: url(../images/back.jpg) top center no-repeat;}
+h1, h3 {font-family:georgia;font-style:italic;font-weight:normal;font-size:25px;color:#fff;}
+.mcac_header { width:100%;height:51px;background-color:#a70b10;background-image: url(../images/mcac_logo.jpg);background-position: top center; background-repeat:no-repeat; }
+.account {position:absolute;top: 60px;right: 30px;color:#ccc;}
+.account a {color:#fff;}
+
+.mcac_settings {padding: 20px;}
+.icon32 {position:relative;top: -16px;}
+.mcac_subdomain { color:#fff;font-size:2em; }
+.mcac_domain { color:#fff;font-size:2em; }
+.form-table tbody tr th { color:#fff;font-size:1.5em;width:170px;text-shadow: none;vertical-align:middle; }
