@@ -15,7 +15,6 @@ Add your advent-calendar (from www.advent-calendar-net) to any page or post in W
 Use the [my_calendar] shortcode to display calendar in any page/post.
 
 **Available options**
-
 * width (in px or %)
 * height (in px)
 * border (in px)
@@ -25,18 +24,17 @@ See FAQ for further description and examples.
 
 == Installation ==
 
-1. Upload Christmas Advent Calendar to the `/wp-content/plugins/` directory or simply download it from Wordpress.
+1. Upload My-Christmas-Calendar to the `/wp-content/plugins/` directory or simply download it from Wordpress.
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to Settings and edit My Christmas Calendar Settings
-1. Type in your julekalender.com subdomain
+1. Go to the Settings menu and edit My-Christmas-Calendar Settings
+1. Type in your advent-calendar.net web address
 1. Paste the [my_calendar] shortcode into any page/post (see FAQ for more options)
-1. If your corporate go premium!
 
 == Frequently Asked Questions ==
 = Exampels & options =
 
 * Basic: [my_calendar]
-* With opitional attributes [my_calendar  width="810px" height="800px" border="3" bordercolor="000000"] - notation is optional.
+* With opitional attributes [my_calendar width="810px" height="800px" border="3" bordercolor="000000"] - notation is optional.
 
 == Changelog ==
 
