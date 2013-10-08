@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Add your advent-calendar (from advent-calendar.net) to any page or post in Wordpress. We do not recommend displaying it in a widget area unless the width of the area is at least equal to an iPhone screen.
+Add your advent-calendar (from www.advent-calendar.net) to any page or post in Wordpress. We do not recommend displaying it in a widget area unless the width of the area is at least equal to an iPhone screen.
 
 Use the [my_calendar] shortcode to display calendar in any page/post.
 
