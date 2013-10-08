@@ -1,4 +1,4 @@
-=== My-Christmas-Calendar ===
+=== Plugin name ===
 Contributors: stian4000
 Donate link: www.advent-calendar.net
 Tags: julekalender, julkalender, adventskalender, advent calendar, advent-calendar
@@ -7,8 +7,6 @@ Tested up to: 3.6
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-The easy way to integrate your advent-calendar in Wordpress.
 
 == Description ==
 
