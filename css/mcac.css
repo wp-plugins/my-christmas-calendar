@@ -1,12 +1,170 @@
+.mcac_wrap { font-family: 'Lato', sans-serif;position:relative;width:99%;height:auto;min-height: 900px;background: url(../images/mcac_background.jpg) top center no-repeat;}
+.mcac_wrap h1, .mcac_wrap h3 {font-style:italic;font-weight:normal;font-size:25px;color:#fff;}
+.mcac_wrap h3 { -webkit-margin-before: 8px;-webkit-margin-after: 60px;-moz-margin-before: 8px;-moz-margin-after: 60px;-o-margin-before: 8px;-o-margin-after: 60px;-ms-margin-before: 8px;-ms-margin-after: 60px;margin-before: 8px;margin-after: 60px;}
+.mcac_wrap h2 { -webkit-margin-before: 8px;-webkit-margin-after: 0;-moz-margin-before: 8px;-moz-margin-after: 0;-o-margin-before: 8px;-o-margin-after: 0;-ms-margin-before: 8px;-ms-margin-after: 0;margin-before: 8px;margin-after: 0;}
+.mcac_wrap p, .mcac_wrap li, .mcac_wrap span { font-size:14px;}
+.mcac_wrap p { color:#fff;}
+.mcac_wrap .mcac_account { position:absolute;top: 100px;right: 50px;color:#ccc; width:200px;height: 200px;border-radius: 10px; }
+.mcac_wrap .mcac_account > span { color:#f1f1f1;font-size: 35px;line-height:110%;display:block;text-shadow: 0 1px #111;} 
+.mcac_wrap .mcac_account > a { text-decoration:none;font-size: 14px;margin: 0 auto;padding: 0 10px;}
+.mcac_wrap .mcac_settings {padding: 20px;}
+.mcac_wrap .icon32 {position:relative;top: -16px;}
+.mcac_wrap .mcac_subdomain { color:#000;font-size:2em; }
+.mcac_wrap .mcac_domain { color:#fff;font-size:2em; }
+.mcac_wrap .form-table tbody tr th { color:#fff;font-size:1.5em;width:170px;text-shadow: none;vertical-align:middle; }
+.mcac_wrap .mcac-alert { margin: 0 0 0 30px;background:rgba(167,11,16,.6);color:#fff;width:77%;padding:20px;border-radius: 5px; }
+.mcac_wrap .mcac-alert ul { list-style-type: square;margin:0; }
+.mcac_wrap .mcac-alert ul li { margin:0 0 0 20px;padding:0;}
+.mcac_wrap .mcac-alert span { color:#fff;background:#288dbb;padding: 5px 10px;}
+.mcac_wrap .mcac-help { display:none;position:absolute; top: 105px;left: 170px;background:rgba(0,0,0,.9);padding:20px;z-index: 30;color:#fff;border-radius: 5px;}
+.mcac_wrap th > span { cursor:pointer;background:#288dbb;color:#fff;font-size:10px;padding:5px; }
+.mcac_wrap .makelogo { position:absolute;bottom:20px;right:20px;width:125px;height:34px;background: url('../images/makelogo_red.png') no-repeat;}
+.mcac_animation_helper {
+	-webkit-animation: float-up 4s ease-in-out forwards, 
+						float-lr 4s ease-in-out forwards, 
+						wobble 4s ease-in-out forwards;
+	-moz-animation: float-up 4s ease-in-out forwards, 
+						float-lr 4s ease-in-out forwards, 
+						wobble 4s ease-in-out forwards;
+	-o-animation: float-up 4s ease-in-out forwards, 
+						float-lr 4s ease-in-out forwards, 
+						wobble 4s ease-in-out forwards;
+	-ms-animation: float-up 4s ease-in-out forwards, 
+						float-lr 4s ease-in-out forwards, 
+						wobble 4s ease-in-out forwards;
+	animation: float-up 4s ease-in-out forwards, 
+						float-lr 4s ease-in-out forwards, 
+						wobble 4s ease-in-out forwards;
+}
+.mcac_wrap .mcac_disclaimer { margin: 15px 0 0 30px;}
+.mcac_wrap .mcac_disclaimer a { color:#ccc;text-decoration:none; }
 
-.wrap { position:relative;width:99%;height:auto;min-height: 900px;background: url(../images/back.jpg) top center no-repeat;}
-h1, h3 {font-family:georgia;font-style:italic;font-weight:normal;font-size:25px;color:#fff;}
-.mcac_header { width:100%;height:51px;background-color:#a70b10;background-image: url(../images/mcac_logo.jpg);background-position: top center; background-repeat:no-repeat; }
-.account {position:absolute;top: 60px;right: 30px;color:#ccc;}
-.account a {color:#fff;}
+@-webkit-keyframes float-lr {
+	0% {right: 50px}
+	40%, 80% { right:70px; }
+	20%, 60%, 100% { right:30px; }
+}
+@-moz-keyframes float-lr {
+	0% {right: 50px}
+	40%, 80% { right:70px; }
+	20%, 60%, 100% { right:30px; }
+}
+@-o-keyframes float-lr {
+	0% {right: 50px}
+	40%, 80% { right:70px; }
+	20%, 60%, 100% { right:30px; }
+}
+@-ms-keyframes float-lr {
+	0% {right: 50px}
+	40%, 80% { right:70px; }
+	20%, 60%, 100% { right:30px; }
+}
+@keyframes float-lr {
+	0% {right: 50px}
+	40%, 80% { right:70px; }
+	20%, 60%, 100% { right:30px; }
+}
 
-.mcac_settings {padding: 20px;}
-.icon32 {position:relative;top: -16px;}
-.mcac_subdomain { color:#fff;font-size:2em; }
-.mcac_domain { color:#fff;font-size:2em; }
-.form-table tbody tr th { color:#fff;font-size:1.5em;width:170px;text-shadow: none;vertical-align:middle; }
+@-webkit-keyframes float-up {
+	0% { top:600px; }
+	100% { top: 100px;}
+}
+@-moz-keyframes float-up {
+	0% { top:600px; }
+	100% { top: 100px;}
+}
+@-o-keyframes float-up {
+	0% { top:600px; }
+	100% { top: 100px;}
+}
+@-ms-keyframes float-up {
+	0% { top:600px; }
+	100% { top: 100px;}
+}
+@keyframes float-up {
+	0% { top:600px; }
+	100% { top: 100px;}
+}
+
+@-webkit-keyframes wobble {
+	0%, 40%, 80% { -webkit-transform: rotate(4deg); }
+	20%, 60% { -webkit-transform: rotate(-4deg); }
+	100% {}
+}
+@-moz-keyframes wobble {
+	0%, 40%, 80% { -moz-transform: rotate(4deg); }
+	20%, 60% { -moz-transform: rotate(-4deg); }
+	100% {}
+}
+@-o-keyframes wobble {
+	0%, 40%, 80% { -o-transform: rotate(4deg); }
+	20%, 60% { -o-transform: rotate(-4deg); }
+	100% {}
+}
+@-ms-keyframes wobble {
+	0%, 40%, 80% { -ms-transform: rotate(4deg); }
+	20%, 60% { -ms-transform: rotate(-4deg); }
+	100% {}
+}
+@keyframes wobble {
+	0%, 40%, 80% { transform: rotate(4deg); }
+	20%, 60% { transform: rotate(-4deg); }
+	100% {}
+}
+
+@media (max-width: 980px) {
+	.mcac_wrap .mcac-alert { width:88%; }
+	.mcac_wrap .mcac_account { top: 220px; }
+	.mcac_wrap .mcac_subdomain { width:230px; }
+		
+	@-webkit-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@-moz-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@-o-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@-ms-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+}
+
+@media (max-width: 768px) {
+	.mcac_wrap .mcac-alert { width:86%; }
+	.mcac_wrap .mcac_account { top: 220px; }
+	.mcac_wrap .mcac_subdomain { width:230px; }
+	.mcac_wrap .mcac-help { width: 400px; }
+		
+	@-webkit-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@-moz-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@-o-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@-ms-keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+	@keyframes float-up {
+		0% { top:600px; }
+		100% { top: 220px;}
+	}
+}
+
+
