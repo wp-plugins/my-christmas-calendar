@@ -15,6 +15,7 @@ Add your advent-calendar (from advent-calendar.net) to any page or post in Wordp
 Use the [my_calendar] shortcode to display calendar in any page/post.
 
 **Available options**
+
 * width (in px or %)
 * height (in px)
 * border (in px)
