@@ -3,7 +3,7 @@ Contributors: stian4000
 Donate link: www.advent-calendar.net
 Tags: julekalender, julkalender, adventskalender, advent calendar, advent-calendar
 Requires at least: 3.0.0
-Tested up to: 3.6
+Tested up to: 4.0
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -39,6 +39,7 @@ See FAQ for further description and examples.
 
 == Changelog ==
 
+= 1.1.1 = Compability check with WP 4.0
 = 1.1 = Refreshed and upgraded for Wordpress 3.6
 = 1.0 = First version. 
 
