@@ -3,7 +3,7 @@
 Plugin Name: My-Christmas-Calendar
 Plugin URI: http://advent-calendar.net
 Description: The easy way to embed your advent-calendar [from advent-calendar.net] in Wordpress.
-Version: 1.1
+Version: 1.1.1
 Author: Stian B Pedersen
 Author URI: http://advent-calendar.net
 */
